@@ -34,8 +34,8 @@ You can use Werkzeug's local development server::
 Jinja2 Magic
 ^^^^^^^^^^^^
 
-    ``fl_static.Jinja2Magic`` extends ``static.StringMagic`` providing Jinja2
-    template support.
+``fl_static.Jinja2Magic`` extends ``static.StringMagic`` providing Jinja2
+template support.
 
 License
 -------
