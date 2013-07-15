@@ -37,7 +37,7 @@ Jinja2 Magic
 ``fl_static.Jinja2Magic`` extends ``static.StringMagic`` providing Jinja2
 template support.
 
-You can see it in action in ``test.py``.
+You can see it in action in ``example.py``.
 
 License
 -------
