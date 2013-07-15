@@ -18,8 +18,8 @@ Configure your static assets in::
 
     app = Flask(__name__)
     app.config.update(
-        STATIC_ROOT='staticfiles',
-        STATIC_URL='/static/',
+        STATIC_ROOT='static',
+        STATIC_URL='/static',
     )
 
 Then, use the Cling middleware::
@@ -36,6 +36,8 @@ Jinja2 Magic
 
 ``fl_static.Jinja2Magic`` extends ``static.StringMagic`` providing Jinja2
 template support.
+
+You can see it in action in ``test.py``.
 
 License
 -------
