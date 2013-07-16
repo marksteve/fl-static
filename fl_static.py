@@ -34,9 +34,9 @@ class Cling(DispatcherMiddleware):
         run_simple(hostname, port, self, **kw)
 
 
-def cling_wrap(package_name, dir_name, **kw):
+def cling_wrap(app, package_name, dir_name, **kw):
     resource = Requirement.parse(package_name)
-    return Cling(resource_filename(resource, dir_name), **kw)
+    return Cling(app, root=resource_filename(resource, dir_name), **kw)
 
 
 class Shock(Cling):
