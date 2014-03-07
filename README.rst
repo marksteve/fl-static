@@ -1,6 +1,8 @@
 FL-Static
 =========
 
+.. image:: http://img.shields.io/pypi/v/fl-static.png
+
 Serve production static files with Flask.
 A Flask version of `DJ-Static <https://github.com/kennethreitz/dj-static>`_.
 
